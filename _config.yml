@@ -3,8 +3,8 @@ email: stefan.haslinger@informatom.com
 description: >- # this means to ignore newlines until "baseurl:"
   Demo Site for the Jekyll theme jekyll-openui5 which introduces SAP's OpenUI5 JavaScript and CSS
   UI library in a Jekyll theme
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/openui5-demo" # the subpath of your site, e.g. /blog
+url: "https://jekyll-openui5.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: informatom
 github_username:  haslinger
 
