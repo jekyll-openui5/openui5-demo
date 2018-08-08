@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+      <title>Hello World</title>
+
+      <script id='sap-ui-bootstrap'
+           src="http://localhost:4000/assets/sap-ui-core.js"
+           data-sap-ui-theme='sap_belize'
+           data-sap-ui-libs='sap.m'></script>
+
+   </head>
+   <body id='content' class='sapUiBody'>
+     <h1 id="demo-site-for-the-jekyll-theme-jekyll-openui5">Demo Site for the Jekyll theme jekyll-openui5</h1>
+
+<p>There is only a small button here to demonstrate, that OpenUI5 is working:</p>
+
+<script>
+   var btn = new sap.m.Button({
+      text:'Hello World',
+      press:function(){alert('Hello!');}
+   });
+   btn.placeAt('content');
+</script>
+
+
+
+   </body>
+</html>

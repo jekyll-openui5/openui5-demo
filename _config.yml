@@ -12,3 +12,16 @@ markdown: kramdown
 theme: jekyll-openui5
 plugins:
   - jekyll-feed
+
+# For github pages to work:
+destination: ./docs
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - docs
