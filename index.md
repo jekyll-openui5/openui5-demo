@@ -5,7 +5,7 @@ message: >-
   with the code.
 ---
 
-next: [Demo2](/demo2)
+next: [Demo2](demo2)
 
 There is only a small button here to demonstrate, that OpenUI5 is working:
 

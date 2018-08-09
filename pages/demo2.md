@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: openui5-demo/demo2/
+permalink: /demo2/
 ---
 
 back: [Demo1](/)
