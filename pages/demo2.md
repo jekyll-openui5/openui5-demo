@@ -3,7 +3,7 @@ layout: page
 permalink: /demo2/
 ---
 
-back: [Demo1](/)
+back: [Demo1](/openui5-demo)
 
 <script type="text/javascript">
   sap.ui.getCore().attachInit(function () {
