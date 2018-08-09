@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+      <title>Hello World</title>
+
+      <script id='sap-ui-bootstrap'
+           src="http://localhost:4000/assets/sap-ui-core.js"
+           id="sap-ui-bootstrap"
+           data-sap-ui-theme='sap_belize'
+           data-sap-ui-libs='sap.m'>
+      </script>
+   </head>
+   <body id='content' class='sapUiBody'>
+     <p>back: <a href="/">Demo1</a></p>
+
+<script type="text/javascript">
+  sap.ui.getCore().attachInit(function () {
+    var app = new sap.m.App("myApp", {
+      initialPage: "page1"
+    });
+    var page1 = new sap.m.Page("page1", {
+      title : "Hello World",
+      showNavButton : false,
+      content : new sap.m.Button({
+        text : "Go to Page 2",
+        press : function () {
+          app.to("page2");
+        }
+      })
+    });
+    var page2 = new sap.m.Page("page2", {
+      title : "Hello Page 2",
+      showNavButton : true,
+      navButtonPress : function () {
+        app.back();
+      }
+    });
+    app.addPage(page1).addPage(page2);
+    app.placeAt("content");
+  });
+</script>
+
+
+
+   </body>
+</html>
