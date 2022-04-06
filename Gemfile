@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby '3.1.0'
 
-gem "jekyll", "~> 3.9.2"
+gem "jekyll", "~> 4.2.2"
 
 # To get latest stable, uncomment:
 # gem "jekyll-openui5"

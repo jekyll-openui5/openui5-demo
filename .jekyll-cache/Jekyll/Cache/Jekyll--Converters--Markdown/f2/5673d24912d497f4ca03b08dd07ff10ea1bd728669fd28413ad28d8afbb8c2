@@ -1,0 +1,13 @@
+I"u<p>next: <a href="demo2">Demo2</a></p>
+
+<p>There is only a small button here to demonstrate, that OpenUI5 is working:</p>
+
+<script>
+   var btn = new sap.m.Button({
+      text:'Hello World',
+      press:function(){alert('I am data from the front matter, so basically any data can be processed without fiddling with the code.');}
+   });
+   btn.placeAt('content');
+</script>
+
+:ET
